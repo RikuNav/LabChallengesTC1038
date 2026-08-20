@@ -35,6 +35,7 @@ A string is simply an ordered collection of symbols selected from some alphabet 
 An example of a length 21 DNA string (whose alphabet contains the symbols 'A', 'C', 'G', and 'T') is "ATGCTTCAGAAAGGTCTTACG."
 **Given:** A DNA string $s$ of length at most 1000 nt.
 **Return:** Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in $s$.
+
 Example Dataset:
 ```
 AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
@@ -54,6 +55,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 # Cryptography
 ## Challenge 1: Caesar Cipher
 - Source: [Cracking Codes with Python (1st ed)](https://inventwithpython.com/cracking/chapter5.html)
+
 Caesar cipher is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions along the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on.
 Given the alphabet:
 ```
