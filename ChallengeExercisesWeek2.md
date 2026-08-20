@@ -3,22 +3,21 @@
 - Source: [Invent your own computer games with Python (4th ed.)](https://inventwithpython.com/invent4thed/chapter3.html)
 
 You’re going to make a Guess the Number game. The computer will think of a secret number from 1 to 20 and ask the user to guess it. After each guess, the computer will tell the user whether the number is too high or too low. The user wins if they can guess the number within six tries.
-Here’s what the Guess the Number program looks like to the player when it’s run. The player’s input is marked in bold:
-
-> [!example] Example Run
-> Hello! What is your name?
-> **Albert**
-> Well, Albert, I am thinking of a number between 1 and 20.
-> Take a guess.
-> **10**
-> Your guess is too high.
-> Take a guess.
-> **2**
-> Your guess is too low.
-> Take a guess.
-> **4**
-> Good job, Albert! You guessed my number in 3 guesses!
-> 
+Here’s what the Guess the Number program looks like to the player when it’s run. The player’s input is marked with `>`:
+```
+Hello! What is your name?
+> Albert
+Well, Albert, I am thinking of a number between 1 and 20.
+Take a guess.
+> 10
+Your guess is too high.
+Take a guess.
+> 2
+Your guess is too low.
+Take a guess.
+> 4
+Good job, Albert! You guessed my number in 3 guesses!
+```
 
 You will need to use a library for generating random numbers. Python's built-in `random` can serve this purpose. You can use this library with the following code:
 ```
